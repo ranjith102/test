@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> Hello</h1>
-</body>
+	<head>
+		  <meta charset="UTF-8">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		      <title>Instagram Login</title>
+		        <style>
+    body {
+	          font-family: Arial, sans-serif;
+		        background-color: #fafafa;
+			    }
+        .container {
+		      width: 300px;
+		            margin: 100px auto;
+			          background-color: #fff;
+				        padding: 20px;
+					      border-radius: 5px;
+					            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+						        }
+	    h2 {
+		          text-align: center;
+			        margin-bottom: 30px;
+				    }
+	        input[type="text"],
+		    input[type="password"] {
+			          width: 100%;
+				        padding: 10px;
+					      margin-bottom: 20px;
+					            border: 1px solid #ddd;
+						          border-radius: 5px;
+							      }
+		        input[type="submit"] {
+				      width: 100%;
+				            padding: 10px;
+					          background-color: #3897f0;
+						        border: none;
+							      border-radius: 5px;
+							            color: #fff;
+								          font-weight: bold;
+									        cursor: pointer;
+										    }
+			    input[type="submit"]:hover {
+				          background-color: #357ae8;
+					      }
+			        .signup-link {
+					      text-align: center;
+					          }
+				    .signup-link a {
+					          color: #3897f0;
+						        text-decoration: none;
+							    }
+				      </style>
+	</head>
+	<body>
+		  <div class="container">
+			      <h2>Instagram Login</h2>
+			          <form action="#">
+					        <input type="text" placeholder="Username or Email">
+						      <input type="password" placeholder="Password">
+						            <input type="submit" value="Log In">
+							        </form>
+								    <div class="signup-link">
+									          Don't have an account? <a href="#">Sign up</a>
+										      </div>
+										        </div>
+	</body>
 </html>
+
